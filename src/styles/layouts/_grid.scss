@@ -1,0 +1,16 @@
+.flex-container {
+	flex: 50%; // If need to support IE10 and earlier, consider to use float.
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	align-items: stretch;
+	margin: 0 3rem;
+
+	.title {
+		color: $slate-lite;
+	}
+
+	.flex-item {
+		margin: $component-margin;
+	}
+}

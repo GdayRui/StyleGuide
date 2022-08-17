@@ -1,0 +1,22 @@
+@import "./styles/abstracts/variables";
+@import "./styles/base/breakpoints";
+@import "./styles/layouts/grid";
+@import "./styles/component/tabs";
+@import "./styles/component/button";
+@import "./styles/component/card";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.App {
+	margin: auto;
+}
+
+.style-guide {
+	max-width: 1024px;
+	margin: auto;
+	padding: 3rem 4rem;
+	display: flex;
+}

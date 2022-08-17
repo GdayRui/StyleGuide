@@ -1,0 +1,44 @@
+.tab {
+	min-width: none;
+	max-width: 100%;
+	padding: 0;
+	border: 2px solid $slate-primary;
+
+	.tab-title {
+		overflow: hidden;
+		border: 0px solid white;
+		display: flex;
+		flex-wrap: nowrap;
+
+		button {
+			float: left;
+			outline: none;
+			cursor: pointer;
+			padding: 1rem;
+			background-color: white;
+			flex-grow: 1;
+			border-color: $slate-primary;
+			border-top: 0;
+			border-right: 0;
+
+			&:first-child {
+				border-left: 0px;
+			}
+		}
+
+		.tab-active {
+			border-bottom: 0;
+		}
+	}
+
+	.tab-content-active {
+		display: block;
+		padding: 1rem;
+		border-top: 0;
+	}
+
+	.tab-content {
+		display: none;
+	}
+
+}
